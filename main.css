@@ -3,10 +3,11 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    width: 25vh;
+    max-width: 300px;
     height: auto;
     background-color: rgb(255, 236, 236);
     border: 2px solid rgb(225, 137, 137);
+    padding: 10px;
 }
 
 .shapes__cards {
