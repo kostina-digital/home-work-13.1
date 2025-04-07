@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Home Work 13.1</title>
+</head>
+
+<body>
+
+    <div class="shapes container">
+        <h1 class="title">Magic Shapes</h1>
+        <p class="title__description">
+            Створення фігур: Створіть за допомогою SVG чотири прості фігури: квадрат, прямокутник, коло, еліпс.
+            Використовуйте для цього відповідні SVG теги.<br>
+
+            Стилізація фігур: Додайте до кожної фігури унікальну товщину кордону (5px) та встановіть різні кольори
+            кордонів і заливок для кожної фігури.<br>
+
+            Анімація фігури: Виберіть будь-яку фігуру та застосуйте до неї анімацію, що змінює колір кордону та колір
+            заливки. Використовуйте для анімації CSS та класи.
+        </p>
+        <div class="shapes__cards">
+
+            <div class="card">
+                <h2>This is Circle</h2>
+                <p>Radius: 50px</p>
+                <svg class="svg" width="200" height="200">
+                    <circle class="circle" cx="100" cy="100" r="50" />
+                </svg>
+            </div>
+
+            <div class="card">
+                <h2>This is Rectangle</h2>
+                <p>Width: 160px, Height: 100px</p>
+                <svg class="svg" width="200" height="200">
+                    <rect class="rectangle" x="20" y="50" width="160" height="100" />
+                </svg>
+            </div>
+
+            <div class="card">
+                <h2>This is Square</h2>
+                <p>Width: 100px, Height: 100px</p>
+                <svg class="svg" width="200" height="200">
+                    <rect class="square" x="50" y="50" width="100" height="100" />
+                </svg>
+            </div>
+
+            <div class="card">
+                <h2>This is Oval</h2>
+                <p>Width: 160px, Height: 100px</p>
+                <svg class="svg" width="200" height="200">
+                    <ellipse class="ellipse" cx="100" cy="100" rx="80" ry="50" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
